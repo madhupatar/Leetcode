@@ -4,6 +4,7 @@ class Solution:
         def string_to_int(str):
             num = 0
             for char in str:
+                # ord() returns integer representing the Unicode character
                 num = num*10 + ord(char)-ord('a')
             return num
         
